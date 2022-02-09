@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@mui/icons-material": "^5.3.1",
+    "react-router": "^6.2.1"
+  }
+}
