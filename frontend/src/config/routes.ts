@@ -1,15 +1,15 @@
 import {
-  Home as HomeIcon,
-  CodeOutlined as CodeIcon,
   MeetingRoomOutlined as Room,
   AirlineSeatReclineNormalOutlined as Seat,
   AssignmentIndOutlined as Invigilation,
   ArticleOutlined as Report,
   EmailOutlined as Email,
   InfoOutlined as Info,
+  FileUploadOutlined as UploadIcon,
 } from '@mui/icons-material';
 
 import { RoomAllocation } from '../pages/RoomAllocation';
+import { Upload } from '../pages/Upload';
 
 import { Route } from '../types/Route';
 
@@ -58,6 +58,16 @@ const routes: Array<Route> = [
     path: '/mailer',
     isEnabled: true,
     icon: Email,
+    appendDivider: true,
+  },
+  {
+    key: 'upload',
+    title: 'Upload',
+    description: 'Upload Data',
+    component: Upload,
+    path: '/upload',
+    isEnabled: true,
+    icon: UploadIcon,
     appendDivider: true,
   },
   {

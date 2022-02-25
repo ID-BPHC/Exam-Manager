@@ -1,6 +1,7 @@
 import os
 import sys
 import datetime
+import csv
 
 
 class Room:
@@ -73,7 +74,7 @@ def get_date_course_map(file_name):
 
     date_course_map = {}
 
-    f = open(file_name)
+    f = open(file_name, encoding='cp1252')
 
     for line in f.readlines():
 
@@ -197,6 +198,7 @@ def allot_rooms_double(rooms, date_course_map):
                     course, time_slot, seats_alloted, "FULL"))
                 pointer[active_pointer] += 1
 
+
 def post_process(rooms):
 
     for room in rooms:
@@ -212,6 +214,7 @@ def post_process(rooms):
                     allotment_1.remarks = "FULL"
                     room.allotments.remove(allotment_2)
 
+
 def export_csv(rooms, file_name):
 
     f = open(file_name, "w")
@@ -226,14 +229,15 @@ def export_csv(rooms, file_name):
     f.close()
 
 
-def start_process(rooms_csv, exams_csv, is_double):
-
+def start_process(rooms_csv, exams_csv, is_double, output_folder):
+    output_filename = "room-allotment.csv"
+    
     print("Starting....")
 
     # room, capacity
     # Ensure no commas, DUPLICATES and BOM
     rooms = get_rooms(rooms_csv)
-
+    
     # course_code, course_title, Enrolment_Count, time_slot (multiple cols)
     # Ensure no commas, DUPLICATES and BOM
     date_course_map = get_date_course_map(exams_csv)
@@ -245,5 +249,7 @@ def start_process(rooms_csv, exams_csv, is_double):
         allot_rooms_single(rooms, date_course_map)
 
     post_process(rooms)
-    export_csv(rooms, "./RoomAllotment.csv")
+    export_csv(rooms, os.path.join(output_folder, output_filename))
     print("Room Allotment file exported to ./RoomAllotment.csv")
+    
+    return output_filename

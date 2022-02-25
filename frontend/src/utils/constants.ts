@@ -4,12 +4,8 @@ export const APP_DESCRIPTION = 'Exam Management System for TD BPHC';
 export const FOOTER_TEXT = `${new Date().getFullYear()} TD-BPHC`;
 // PAGES TITLE
 export const PAGE_TITLE_ROOM_ALLOCATION = 'Room Allotment';
-export const PAGE_TITLE_DASHBOARD = 'Seating Arrangement';  
-export const PAGE_TITLE_GH_PRIVATE = 'Invigilation';
-export const PAGE_TITLE_GH_PUBLIC = 'Reports';
-export const PAGE_TITLE_CODE = 'Mailer';
-export const PAGE_TITLE_SETTINGS = 'About';
-export const PAGE_TITLE_PREFERENCES = 'Preferences';
+export const PAGE_TITLE_UPLOAD = 'Upload';  
+
 // UI CONSTANTS
 export const FOOTER_HEIGHT = 30;
 export const HEADER_HEIGHT = 60;
