@@ -11,6 +11,7 @@ import { routes } from './config';
 import { Route as AppRoute } from './types';
 import { getAppTheme } from './styles/theme';
 import { DARK_MODE_THEME, LIGHT_MODE_THEME } from './utils/constants';
+import {Login} from './pages/Login';
 
 function App() {
   const [mode, setMode] = useState<typeof LIGHT_MODE_THEME | typeof DARK_MODE_THEME>(DARK_MODE_THEME);
@@ -43,6 +44,7 @@ function App() {
                   route.subRoutes ? route.subRoutes.map((item: AppRoute) => addRoute(item)) : addRoute(route)
                 )}
               </Layout>
+              <Route key="1" path="/abcd12" component={Login} exact />
             </Switch>
           </Router>
         </ThemeProvider>

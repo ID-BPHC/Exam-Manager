@@ -79,6 +79,15 @@ const routes: Array<Route> = [
     icon: Info,
     appendDivider: true,
   },
+  {
+    key: 'login',
+    title: 'Login Page',
+    description: 'Login Page',
+    path: '/login',
+    isEnabled: true,
+    icon: (null),
+    appendDivider: false,
+  }
 ];
 
 export default routes;
