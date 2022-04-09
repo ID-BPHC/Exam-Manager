@@ -110,7 +110,7 @@ export const Upload = () => {
 							<Typography variant="h5" component="h2">
 								Student List
 							</Typography>
-							<b>Format:</b> Room_Number, Capacity
+							<b>Format:</b> Student_ID, Course_Code
 							<br/>
 							<b>Last Updated:</b> 09-02-2022 11:00:00 am
 						</CardContent>

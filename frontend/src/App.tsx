@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { isLoggedIn } from './utils';
 
 import { Layout } from './components/Layout';
 import { PageDefault } from './components/PageDefault';
@@ -11,7 +12,7 @@ import { routes } from './config';
 import { Route as AppRoute } from './types';
 import { getAppTheme } from './styles/theme';
 import { DARK_MODE_THEME, LIGHT_MODE_THEME } from './utils/constants';
-import {Login} from './pages/Login';
+import { Login } from './pages/Login';
 
 function App() {
   const [mode, setMode] = useState<typeof LIGHT_MODE_THEME | typeof DARK_MODE_THEME>(DARK_MODE_THEME);
@@ -39,12 +40,14 @@ function App() {
           <CssBaseline />
           <Router>
             <Switch>
-              <Layout>
-                {routes.map((route: AppRoute) =>
-                  route.subRoutes ? route.subRoutes.map((item: AppRoute) => addRoute(item)) : addRoute(route)
-                )}
-              </Layout>
-              <Route key="1" path="/abcd12" component={Login} exact />
+              <Route component={Login} path='/' exact />
+              {isLoggedIn() ? (
+                <Layout>
+                  {routes.map((route: AppRoute) =>
+                    route.subRoutes ? route.subRoutes.map((item: AppRoute) => addRoute(item)) : addRoute(route)
+                  )}
+                </Layout>
+              ) : null}
             </Switch>
           </Router>
         </ThemeProvider>

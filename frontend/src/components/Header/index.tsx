@@ -9,9 +9,10 @@ import { DefaultMenu, MobileMenu } from './Menu';
 
 interface HeaderProps {
   toggleNavigation: () => void;
+  login?: boolean;
 }
 
-export const Header = ({ toggleNavigation }: HeaderProps) => {
+export const Header = ({ toggleNavigation, login = false }: HeaderProps) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState<null | HTMLElement>(null);
 
@@ -36,7 +37,9 @@ export const Header = ({ toggleNavigation }: HeaderProps) => {
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex', alignItems: 'center' } }}>
             <ThemeSwitcher />
-            <UserAccount onClick={handleProfileMenuOpen} />
+            {!login ? (
+              <UserAccount onClick={handleProfileMenuOpen} />
+            ) : null}
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <More onClick={handleMobileMenuOpen} />

@@ -9,6 +9,7 @@ import {
 } from '@mui/icons-material';
 
 import { RoomAllocation } from '../pages/RoomAllocation';
+import { SeatingArrangement } from '../pages/SeatingArrangement';
 import { Upload } from '../pages/Upload';
 
 import { Route } from '../types/Route';
@@ -19,7 +20,7 @@ const routes: Array<Route> = [
     title: 'Room Allotment',
     description: 'Room Allotment',
     component: RoomAllocation,
-    path: '/',
+    path: '/room-allotment',
     isEnabled: true,
     icon: Room,
     appendDivider: true,
@@ -28,6 +29,7 @@ const routes: Array<Route> = [
     key: 'seating-arrangement',
     title: 'Seating Arrangement',
     description: 'Seating Arrangement',
+    component: SeatingArrangement,
     path: '/seating-arrangement',
     isEnabled: true,
     icon: Seat,
@@ -79,15 +81,6 @@ const routes: Array<Route> = [
     icon: Info,
     appendDivider: true,
   },
-  {
-    key: 'login',
-    title: 'Login Page',
-    description: 'Login Page',
-    path: '/login',
-    isEnabled: true,
-    icon: (null),
-    appendDivider: false,
-  }
 ];
 
 export default routes;
