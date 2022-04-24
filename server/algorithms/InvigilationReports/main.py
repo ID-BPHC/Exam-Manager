@@ -150,24 +150,25 @@ def generate_report_pdfs(reports, path):
         doc.build(flowables)
 
 
-def start_invig_report_generation(invig_csv):
+def start_invig_report_generation(invig_csv, local_storage_folder):
+
+    output_folder = os.path.join(local_storage_folder,"Invigilation_Reports")
 
     print("***** Starting Report Generation *****")
 
-    if os.path.exists("./Invigilation_Reports") and os.path.isdir("./Invigilation_Reports"):
-        shutil.rmtree("./Invigilation_Reports")
+    if os.path.exists(output_folder) and os.path.isdir(output_folder):
+        shutil.rmtree(output_folder)
 
-    os.mkdir("./Invigilation_Reports")
-    os.mkdir("./Invigilation_Reports/IC")
-    os.mkdir("./Invigilation_Reports/Instructor")
+    os.mkdir(output_folder)
+    os.mkdir(os.path.join(output_folder,"IC"))
+    os.mkdir(os.path.join(output_folder, "Instructor"))
 
     print("******** Generating Instructor PDFs ********")
     invigilator_reports = get_invigilator_reports(invig_csv)
-    generate_report_pdfs(invigilator_reports,
-                         "./Invigilation_Reports/Instructor")
+    generate_report_pdfs(invigilator_reports, os.path.join(output_folder,"Instructor"))
 
     print("******** Generating IC PDFs ********")
     ic_reports = get_ic_reports(invig_csv)
-    generate_report_pdfs(ic_reports, "./Invigilation_Reports/IC")
+    generate_report_pdfs(ic_reports, os.path.join(output_folder,"IC"))
 
     print("******** Done ********")

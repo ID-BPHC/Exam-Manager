@@ -4,6 +4,7 @@ from flask_restful import Resource, Api
 from flask_cors import CORS
 
 from resources.RoomAllotment import RoomAllotment
+from resources.InvigilatorAllotment import InvigilatorAllotment
 from resources.FileUpload import FileUpload
 
 app = Flask(__name__)
@@ -14,6 +15,7 @@ app.config.from_pyfile('config.py')
 api = Api(app)
 
 api.add_resource(RoomAllotment, '/room-allotment')
+api.add_resource(InvigilatorAllotment, '/invigilator-allotment')
 api.add_resource(FileUpload, '/upload')
 
 if __name__ == '__main__':
