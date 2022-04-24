@@ -683,8 +683,9 @@ def export_csv(invigilator_list, file_name):
     f.close()
 
 
-def start_invigilation_process(faculty_csv, scholar_csv, chamber_csv, course_teacher_csv, leaves_csv, max_duties_csv, room_allotment_csv, reserve_duties, big_course_cutoffs):
+def start_invigilation_process(faculty_csv, scholar_csv, chamber_csv, course_teacher_csv, leaves_csv, max_duties_csv, room_allotment_csv, reserve_duties, big_course_cutoffs, output_folder):
 
+    output_filename = "InvigilationDuties.csv"
     print("Starting....")
 
     # ENSURE UNIQUE ROWS IN EACH CSV
@@ -726,4 +727,7 @@ def start_invigilation_process(faculty_csv, scholar_csv, chamber_csv, course_tea
 
     assign_reserved_duties(master_map, invigilator_list, reserve_duties)
 
-    export_csv(invigilator_list.get_all(), "./InvigilationDuties.csv")
+    export_csv(invigilator_list.get_all(), os.path.join(output_folder,output_filename))
+    print("Invigilator allotment file exported to ./InvigilationDuties.csv")
+    
+    return output_filename
