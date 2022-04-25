@@ -6,6 +6,7 @@ export const FOOTER_TEXT = `${new Date().getFullYear()} TD-BPHC`;
 export const PAGE_TITLE_ROOM_ALLOCATION = 'Room Allotment';
 export const PAGE_TITLE_UPLOAD = 'Upload';
 export const PAGE_TITLE_SEATING_ARRANGEMENT = 'Seating Arrangement';
+export const PAGE_TITLE_INVIGILATION = 'Invigilation';
 
 // UI CONSTANTS
 export const FOOTER_HEIGHT = 30;

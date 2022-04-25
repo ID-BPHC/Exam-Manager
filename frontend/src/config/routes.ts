@@ -11,6 +11,8 @@ import {
 import { RoomAllocation } from '../pages/RoomAllocation';
 import { SeatingArrangement } from '../pages/SeatingArrangement';
 import { Upload } from '../pages/Upload';
+import { InvigilatorAllotment } from '../pages/InvigilatorAllotment';
+import { InvigilationReport } from '../pages/InvigilationReport';
 
 import { Route } from '../types/Route';
 
@@ -39,6 +41,7 @@ const routes: Array<Route> = [
     key: 'invigilation',
     title: 'Invigilation',
     description: 'Invigilation',
+    component: InvigilatorAllotment,
     path: '/invigilation',
     isEnabled: true,
     icon: Invigilation,
@@ -48,6 +51,7 @@ const routes: Array<Route> = [
     key: 'reports',
     title: 'Reports',
     description: 'Reports',
+    component: InvigilationReport,
     path: '/reports',
     isEnabled: true,
     icon: Report,

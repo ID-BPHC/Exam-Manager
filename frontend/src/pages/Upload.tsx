@@ -16,31 +16,6 @@ import { AppContext } from '../contexts';
 import { PageTitle } from '../components/PageTitle';
 import { APP_TITLE, PAGE_TITLE_UPLOAD } from '../utils/constants';
 
-const UploadCard = (props) => {
-  const { title, format, id } = props;
-  return (
-    <Card>
-      <CardContent>
-        <Typography variant="h5" component="h2">
-          {title}
-        </Typography>
-        <b>Format:</b> {format}
-        <br />
-        <b>Last Updated:</b> 09-02-2022 11:00:00 am
-      </CardContent>
-      <CardActions>
-        <Button size="small" color="primary">
-          Download
-        </Button>
-        <Button size="small" color="primary" component="label">
-          {isProcessing ? 'Uploading...' : 'Upload'}
-          <input type="file" onChange={handleSubmit} id="room" hidden />
-        </Button>
-      </CardActions>
-    </Card>
-  );
-};
-
 export const Upload = () => {
   const context = useContext(AppContext);
   const [isProcessing, setIsProcessing] = useState(false);
@@ -134,6 +109,153 @@ export const Upload = () => {
               <Button size="small" color="primary" component="label">
                 {isProcessing ? 'Uploading...' : 'Upload'}
                 <input type="file" onChange={handleSubmit} id="student" hidden />
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Card>
+            <CardContent>
+              <Typography variant="h5" component="h2">
+                Faculty List
+              </Typography>
+              <b>Format:</b> psrn, name, department, email
+              <br />
+              <b>Last Updated:</b> 09-02-2022 11:00:00 am
+            </CardContent>
+            <CardActions>
+              <Button size="small" color="primary">
+                Download
+              </Button>
+              <Button size="small" color="primary" component="label">
+                {isProcessing ? 'Uploading...' : 'Upload'}
+                <input type="file" onChange={handleSubmit} id="faculty" hidden />
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Card>
+            <CardContent>
+              <Typography variant="h5" component="h2">
+                Scholar List
+              </Typography>
+              <b>Format:</b> psrn, name, department, email
+              <br />
+              <b>Last Updated:</b> 09-02-2022 11:00:00 am
+            </CardContent>
+            <CardActions>
+              <Button size="small" color="primary">
+                Download
+              </Button>
+              <Button size="small" color="primary" component="label">
+                {isProcessing ? 'Uploading...' : 'Upload'}
+                <input type="file" onChange={handleSubmit} id="scholar" hidden />
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Card>
+            <CardContent>
+              <Typography variant="h5" component="h2">
+                Chambers
+              </Typography>
+              <b>Format:</b> psrn, chamber
+              <br />
+              <b>Last Updated:</b> 09-02-2022 11:00:00 am
+            </CardContent>
+            <CardActions>
+              <Button size="small" color="primary">
+                Download
+              </Button>
+              <Button size="small" color="primary" component="label">
+                {isProcessing ? 'Uploading...' : 'Upload'}
+                <input type="file" onChange={handleSubmit} id="chamber" hidden />
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Card>
+            <CardContent>
+              <Typography variant="h5" component="h2">
+                Course Teacher
+              </Typography>
+              <b>Format:</b> Course Code, Course Title, Class Instructor, Course Admin
+              <br />
+              <b>Last Updated:</b> 09-02-2022 11:00:00 am
+            </CardContent>
+            <CardActions>
+              <Button size="small" color="primary">
+                Download
+              </Button>
+              <Button size="small" color="primary" component="label">
+                {isProcessing ? 'Uploading...' : 'Upload'}
+                <input type="file" onChange={handleSubmit} id="course-teacher" hidden />
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Card>
+            <CardContent>
+              <Typography variant="h5" component="h2">
+                Leaves
+              </Typography>
+              <b>Format:</b> psrn, start_date_time, end_date_time (date format - DD/MM/YYYY HH:MM)
+              <br />
+              <b>Last Updated:</b> 09-02-2022 11:00:00 am
+            </CardContent>
+            <CardActions>
+              <Button size="small" color="primary">
+                Download
+              </Button>
+              <Button size="small" color="primary" component="label">
+                {isProcessing ? 'Uploading...' : 'Upload'}
+                <input type="file" onChange={handleSubmit} id="leaves" hidden />
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Card>
+            <CardContent>
+              <Typography variant="h5" component="h2">
+                Max Duties
+              </Typography>
+              <b>Format:</b> psrn, max_duties
+              <br />
+              <b>Last Updated:</b> 09-02-2022 11:00:00 am
+            </CardContent>
+            <CardActions>
+              <Button size="small" color="primary">
+                Download
+              </Button>
+              <Button size="small" color="primary" component="label">
+                {isProcessing ? 'Uploading...' : 'Upload'}
+                <input type="file" onChange={handleSubmit} id="faculty" hidden />
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <Card>
+            <CardContent>
+              <Typography variant="h5" component="h2">
+                Room Allotment CSV file
+              </Typography>
+              <b>Format:</b> as generated by the room allotment tool
+              <br />
+              <b>Last Updated:</b> 09-02-2022 11:00:00 am
+            </CardContent>
+            <CardActions>
+              <Button size="small" color="primary">
+                Download
+              </Button>
+              <Button size="small" color="primary" component="label">
+                {isProcessing ? 'Uploading...' : 'Upload'}
+                <input type="file" onChange={handleSubmit} id="room-allotment" hidden />
               </Button>
             </CardActions>
           </Card>
