@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-f = open("./invigilation_reports_config.xml")
+f = open("invigilation_reports_config.xml")
 parsed = BeautifulSoup(f, 'xml')
 
 college_name = parsed.college.text
