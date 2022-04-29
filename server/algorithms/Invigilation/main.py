@@ -439,7 +439,7 @@ def assign_ics(master_map):
             if (left_course is not None) and (left_course.code not in ic_assigned_set):
                 ic_assigned_set.add(left_course.code)
 
-                if left_course.ic is not None and left_course.ic.is_available(start, end):
+                if left_course.ic is not None and left_course.ic.is_available(start, end, 1):
                     master_map[room][time_slot_key]["left_invigilator"] = left_course.ic
                     left_course.ic.duties.append(
                         Duty(room, left_course, start, end))
@@ -451,7 +451,7 @@ def assign_ics(master_map):
             if (right_course is not None) and (right_course.code not in ic_assigned_set):
                 ic_assigned_set.add(right_course.code)
 
-                if right_course.ic is not None and right_course.ic.is_available(start, end):
+                if right_course.ic is not None and right_course.ic.is_available(start, end, 1):
                     master_map[room][time_slot_key]["right_invigilator"] = right_course.ic
                     right_course.ic.duties.append(
                         Duty(room, right_course, start, end))

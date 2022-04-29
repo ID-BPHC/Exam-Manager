@@ -23,14 +23,15 @@ class Invigilator:
     def get_reamining_duty_count(self):
         return self.max_duties - len(self.duties)
 
-    def is_available(self, start, end):
+    def is_available(self, start, end, is_ic):
 
         if len(self.duties) >= self.max_duties:
             return False
 
-        for leave in self.leaves:
-            if do_dates_intersect(start, end, leave.start_time, leave.end_time):
-                return False
+        if is_ic == 0:
+            for leave in self.leaves:
+                if do_dates_intersect(start, end, leave.start_time, leave.end_time):
+                    return False
 
         for duty in self.duties:
             if do_dates_intersect(start, end, duty.start_time, duty.end_time):
@@ -75,7 +76,7 @@ class InvigilatorList:
         remaining_duties_max = 0
 
         for invigilator in self.invigilators:
-            if invigilator.department == department and invigilator.is_research_scholar and invigilator.is_available(start_time, end_time) and invigilator.get_reamining_duty_count() > remaining_duties_max:
+            if invigilator.department == department and invigilator.is_research_scholar and invigilator.is_available(start_time, end_time, 0) and invigilator.get_reamining_duty_count() > remaining_duties_max:
                 free_invigilator = invigilator
                 remaining_duties_max = invigilator.get_reamining_duty_count()
 
@@ -87,7 +88,7 @@ class InvigilatorList:
         remaining_duties_max = 0
 
         for invigilator in self.invigilators:
-            if invigilator.is_research_scholar and invigilator.is_available(start_time, end_time) and invigilator.get_reamining_duty_count() > remaining_duties_max:
+            if invigilator.is_research_scholar and invigilator.is_available(start_time, end_time, 0) and invigilator.get_reamining_duty_count() > remaining_duties_max:
                 free_invigilator = invigilator
                 remaining_duties_max = invigilator.get_reamining_duty_count()
 
@@ -99,7 +100,7 @@ class InvigilatorList:
         remaining_duties_max = 0
 
         for invigilator in self.invigilators:
-            if invigilator.department == department and (not invigilator.is_research_scholar) and invigilator.is_available(start_time, end_time) and invigilator.get_reamining_duty_count() > remaining_duties_max:
+            if invigilator.department == department and (not invigilator.is_research_scholar) and invigilator.is_available(start_time, end_time, 0) and invigilator.get_reamining_duty_count() > remaining_duties_max:
                 free_invigilator = invigilator
                 remaining_duties_max = invigilator.get_reamining_duty_count()
 
@@ -111,7 +112,7 @@ class InvigilatorList:
         remaining_duties_max = 0
 
         for invigilator in self.invigilators:
-            if (not invigilator.is_research_scholar) and invigilator.is_available(start_time, end_time) and invigilator.get_reamining_duty_count() > remaining_duties_max:
+            if (not invigilator.is_research_scholar) and invigilator.is_available(start_time, end_time, 0) and invigilator.get_reamining_duty_count() > remaining_duties_max:
                 #   Considering no hrs and minutes in date therefore added a day to endtime
                 free_invigilator = invigilator
                 remaining_duties_max = invigilator.get_reamining_duty_count()
