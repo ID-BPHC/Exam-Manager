@@ -77,7 +77,8 @@ def update_invigilator_leaves(invigilator_list, leaves_file_name):
                 end_time = datetime.datetime.strptime(
                     splitted[2].strip(), "%d-%m-%y")
                 faculty.leaves.append(Leave(start_time, end_time))
-            except:
+            except Exception as e:
+                print(e)
                 print(
                     f"****** ERROR: Invalid leave date for faculty {faculty.psrn} {splitted[1]}******")
                 print("Leave will not be considered" + os.linesep)
@@ -441,6 +442,7 @@ def assign_ics(master_map):
 
                 if left_course.ic is not None and left_course.ic.is_available(start, end, 1):
                     master_map[room][time_slot_key]["left_invigilator"] = left_course.ic
+                    # print(f"IC FOUND FOR {left_course.code}")
                     left_course.ic.duties.append(
                         Duty(room, left_course, start, end))
 
@@ -453,6 +455,7 @@ def assign_ics(master_map):
 
                 if right_course.ic is not None and right_course.ic.is_available(start, end, 1):
                     master_map[room][time_slot_key]["right_invigilator"] = right_course.ic
+                    # print(f"IC FOUND FOR {right_course.code}")
                     right_course.ic.duties.append(
                         Duty(room, right_course, start, end))
 

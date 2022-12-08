@@ -26,7 +26,8 @@ class Invigilator:
     def is_available(self, start, end, is_ic):
 
         if len(self.duties) >= self.max_duties:
-            return False
+            if is_ic == 0:
+                return False
 
         if is_ic == 0:
             for leave in self.leaves:

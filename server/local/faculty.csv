@@ -1,57 +1,251 @@
-H0004,N RAJESH .,Chemistry,nrajesh@hyderabad.bits-pilani.ac.in
-H0005,MORAPAKALA SRINIVAS .,Mechanical Engineering,morasrini@hyderabad.bits-pilani.ac.in
-H0013,P K THIRUVIKRAMAN .,Physics,thiru@hyderabad.bits-pilani.ac.in
-H0015,SOURI BANERJEE .,Physics,souri@hyderabad.bits-pilani.ac.in
-H0025,NANDANAVANAM JALAIAH .,Mechanical Engineering,jalaiah@hyderabad.bits-pilani.ac.in
-H0046,ANUPAM BHATTACHARYA .,Chemistry,anupam@hyderabad.bits-pilani.ac.in
-H0071,VASAN ARUNACHALAM .,Civil Engineering,vasan@hyderabad.bits-pilani.ac.in
-H0090,K V G CHANDRA SEKHAR .,Chemistry,kvgc@hyderabad.bits-pilani.ac.in
-H0101,PRASUNA M G .,Humanities and Social Sciences,prasuna@hyderabad.bits-pilani.ac.in
-H0131,SUBBALAKSHMI JAYANTY .,Chemistry,jslakshmi@hyderabad.bits-pilani.ac.in
-H0136,MEENAKSHI V .,Physics,meenakshi@hyderabad.bits-pilani.ac.in
-H0184,BALAJI GOPALAN .,Chemistry,gbalaji@hyderabad.bits-pilani.ac.in
-H0190,MANAB CHAKRAVARTHY .,Chemistry,manab@hyderabad.bits-pilani.ac.in
-H0207,T S L RADHIKA .,Mathematics,radhikatsl@hyderabad.bits-pilani.ac.in
-H0235,V S N MURTHY .,Physics,satyam@hyderabad.bits-pilani.ac.in
-H0250,Sashideep Gutti .,Physics,sashideep@hyderabad.bits-pilani.ac.in
+H0002,P N Rao,Civil Engineering,pnrao@hyderabad.bits-pilani.ac.in
+H0004,N Rajesh ,Chemistry,nrajesh@hyderabad.bits-pilani.ac.in
+H0005,Morapakala Srinivas ,Mechanical Engineering,morasrini@hyderabad.bits-pilani.ac.in
+H0006,Dipak Kumar Satpathi,Mathematics,dipak@hyderabad.bits-pilani.ac.in
+H0008,D Sriram ,Pharmacy,dsriram@hyderabad.bits-pilani.ac.in
+H0009,Chittaranjan Hota ,Computer Sci & Information Sys,hota@hyderabad.bits-pilani.ac.in
+H0010,Vidya Rajesh ,Biological Sciences,vidya@hyderabad.bits-pilani.ac.in
+H0011,P Yogeeswari ,Pharmacy,pyogee@hyderabad.bits-pilani.ac.in
+H0013,P K Thiruvikraman ,Physics,thiru@hyderabad.bits-pilani.ac.in
+H0014,I Sreedhar ,Chemical Engineering,isreedhar@hyderabad.bits-pilani.ac.in
+H0015,Souri Banerjee ,Physics,souri@hyderabad.bits-pilani.ac.in
+H0017,V Vinayaka Ram ,Civil Engineering,vinayak@hyderabad.bits-pilani.ac.in
+H0022,R Gururaj ,Computer Sci & Information Sys,gururaj@hyderabad.bits-pilani.ac.in
+H0025,Nandanavanam Jalaiah ,Mechanical Engineering,jalaiah@hyderabad.bits-pilani.ac.in
+H0031,D Purnima ,Chemical Engineering,dpurnima@hyderabad.bits-pilani.ac.in
+H0046,Anupam Bhattacharya ,Chemistry,anupam@hyderabad.bits-pilani.ac.in
+H0048,G Geethakumari ,Computer Sci & Information Sys,geetha@hyderabad.bits-pilani.ac.in
+H0053,Amit Kumar Gupta ,Mechanical Engineering,akgupta@hyderabad.bits-pilani.ac.in
+H0068,Jayati Ray Dutta ,Biological Sciences,jayati@hyderabad.bits-pilani.ac.in
+H0071,Vasan A ,Civil Engineering,vasan@hyderabad.bits-pilani.ac.in
+H0078,Kannan Ramaswamy ,Physics,kannan@hyderabad.bits-pilani.ac.in
+H0079,Kumar Pranav Narayan ,Biological Sciences,pranav@hyderabad.bits-pilani.ac.in
+H0089,Komaragiri Srinivasa Raju ,Civil Engineering,ksraju@hyderabad.bits-pilani.ac.in
+H0090,K V G Chandra Sekhar ,Chemistry,kvgc@hyderabad.bits-pilani.ac.in
+H0091,Ramakrishna Vadrevu ,Biological Sciences,vrk@hyderabad.bits-pilani.ac.in
+H0093,Srinivasa Prakash Regalla ,Mechanical Engineering,regalla@hyderabad.bits-pilani.ac.in
+H0095,Aravinda Narayanan Raghavan ,Physics,raghavan@hyderabad.bits-pilani.ac.in
+H0101,Prasuna M G ,Humanities and Social Sciences,prasuna@hyderabad.bits-pilani.ac.in
+H0103,Bivudutta Mishra ,Mathematics,bivu@hyderabad.bits-pilani.ac.in
+H0104,B. Harihara Venkataraman ,Physics,hari@hyderabad.bits-pilani.ac.in
+H0114,Kota Venkata Ratnam ,Mathematics,vrkota@hyderabad.bits-pilani.ac.in
+H0117,Praveen Kumar P T V ,Mathematics,praveen@hyderabad.bits-pilani.ac.in
+H0118,Sankar Ganesh P ,Biological Sciences,sangan@hyderabad.bits-pilani.ac.in
+H0125,Pradyumn Kumar Sahoo ,Mathematics,pksahoo@hyderabad.bits-pilani.ac.in
+H0127,Sumithra Kanakamma ,Chemistry,sumithra@hyderabad.bits-pilani.ac.in
+H0131,Subbalakshmi Jayanty ,Chemistry,jslakshmi@hyderabad.bits-pilani.ac.in
+H0136,Meenakshi V ,Physics,meenakshi@hyderabad.bits-pilani.ac.in
+H0140,A Michael Alphonse ,Mathematics,alphonse@hyderabad.bits-pilani.ac.in
+H0141,Krishnan R ,Chemistry,rkrishnan@hyderabad.bits-pilani.ac.in
+H0145,Punna Rao Ravi ,Pharmacy,rpunnarao@hyderabad.bits-pilani.ac.in
+H0146,Syed Ershad Ahmed ,Electrical & Electronics Engg,syed@hyderabad.bits-pilani.ac.in
+H0148,China Hussain Yaganti ,Economics and Finance,hussain@hyderabad.bits-pilani.ac.in
+H0149,Bvvsn Prabhakar Rao ,Electrical & Electronics Engg,budhiraju@hyderabad.bits-pilani.ac.in
+H0161,Kurra Suresh ,Mechanical Engineering,ksuresh@hyderabad.bits-pilani.ac.in
+H0162,Jagadeesh Anmala ,Civil Engineering,jagadeesh@hyderabad.bits-pilani.ac.in
+H0166,Jeevan Jaidi ,Mechanical Engineering,jaidi@hyderabad.bits-pilani.ac.in
+H0177,Y Venkat Daseswara Rao ,Mechanical Engineering,yvdrao@hyderabad.bits-pilani.ac.in
+H0184,Balaji Gopalan ,Chemistry,gbalaji@hyderabad.bits-pilani.ac.in
+H0190,Manab Chakravarty ,Chemistry,manab@hyderabad.bits-pilani.ac.in
+H0202,A Sajeli Begum ,Pharmacy,sajeli@hyderabad.bits-pilani.ac.in
+H0205,Aruna Malapati ,Computer Sci & Information Sys,arunam@hyderabad.bits-pilani.ac.in
+H0207,Sai Lakshmi Radhika Tantravahi ,Mathematics,radhikatsl@hyderabad.bits-pilani.ac.in
+H0208,Lalita Bhanu Murthy Neti ,Computer Sci & Information Sys,bhanu@hyderabad.bits-pilani.ac.in
+H0216,K Rajitha ,Civil Engineering,rajitha@hyderabad.bits-pilani.ac.in
+H0218,Venkata Vamsi Krishna Venuganti,Pharmacy,vamsi@hyderabad.bits-pilani.ac.in
+H0220,Balaji Krishnamurthy ,Chemical Engineering,balaji@hyderabad.bits-pilani.ac.in
+H0226,Ramesh Adusumalli,Chemical Engineering,ramesh.babu@hyderabad.bits-pilani.ac.in
+H0228,Suman Kapur ,Biological Sciences,skapur@hyderabad.bits-pilani.ac.in
+H0230,N Suresh Kumar Reddy ,Mechanical Engineering,nskreddy@hyderabad.bits-pilani.ac.in
+H0235,V Satya Narayana Murthy ,Physics,satyam@hyderabad.bits-pilani.ac.in
+H0245,Murari Raja Raja Varma,Civil Engineering,murari@hyderabad.bits-pilani.ac.in
+H0250,Sashideep Gutti ,Physics,sashideep@hyderabad.bits-pilani.ac.in
+H0263,Srikanta Dinda ,Chemical Engineering,srikantadinda@hyderabad.bits-pilani.ac.in
+H0283,Chetan Kumar Vudadha ,Electrical & Electronics Engg,chetan@hyderabad.bits-pilani.ac.in
+H0284,Swati Alok ,Economics and Finance,swati@hyderabad.bits-pilani.ac.in
+H0285,Chandu Parimi,Civil Engineering,parimi@hyderabad.bits-pilani.ac.in
+H0287,Aruna Lolla,Humanities and Social Sciences,aruna@hyderabad.bits-pilani.ac.in
 H0289,Tathagata Ray,Computer Sci & Information Sys,rayt@hyderabad.bits-pilani.ac.in
-H0296,MAYA VINAI .,Humanities and Social Sciences,mayavinai@hyderabad.bits-pilani.ac.in
+H0290,Subhendu Kumar Sahoo,Electrical & Electronics Engg,sahoo@hyderabad.bits-pilani.ac.in
+H0292,Nitin Rameshrao Kotkunde ,Mechanical Engineering,nitink@hyderabad.bits-pilani.ac.in
+H0296,Maya Vinai,Humanities and Social Sciences,mayavinai@hyderabad.bits-pilani.ac.in
 H0305,K V S Shiv Chaitanya,Physics,chaitanya@hyderabad.bits-pilani.ac.in
-H0330,Karthik Chetan V,Chemical Engineering,kvenk@hyderabad.bits-pilani.ac.in
-H0344,S S Deshmukh,Mechanical Engineering,ssd@hyderabad.bits-pilani.ac.in
+H0313,Ramakrishnan Ganesan,Chemistry,ram.ganesan@hyderabad.bits-pilani.ac.in
+H0317,Sridev Mohapatra,Biological Sciences,sridev.mohapatra@hyderabad.bits-pilani.ac.in
+H0318,Amit Nag,Chemistry,amitnag@hyderabad.bits-pilani.ac.in
+H0319,Alivelu Manga Parimi,Electrical & Electronics Engg,alivelu@hyderabad.bits-pilani.ac.in
+H0322,Naga Mohan Kommu,Biological Sciences,mohankn@hyderabad.bits-pilani.ac.in
+H0324,Asrarul Haque,Physics,ahaque@hyderabad.bits-pilani.ac.in
+H0327,Sounak Roy,Chemistry,sounak.roy@hyderabad.bits-pilani.ac.in
+H0329,Prasant Kumar Pattnaik,Electrical & Electronics Engg,pkpattnaik@hyderabad.bits-pilani.ac.in
+H0330,Karthik Venkateshan,Chemical Engineering,kvenk@hyderabad.bits-pilani.ac.in
+H0333,Rahul Nigam,Physics,rahul.nigam@hyderabad.bits-pilani.ac.in
+H0344,Sandip Shridharrao Deshmukh,Mechanical Engineering,ssd@hyderabad.bits-pilani.ac.in
 H0354,Manish Kumar,Mathematics,manishkumar@hyderabad.bits-pilani.ac.in
-H0380,DURBA ROY .,Chemistry,durbaroy@hyderabad.bits-pilani.ac.in
-H0410,N KISHORE KUMAR,Mathematics,naraparaju@hyderabad.bits-pilani.ac.in
-H0477,ARKAMITRA KAR,Civil Engineering,arkamitra.kar@hyderabad.bits-pilani.ac.in
-H0547,SUVADIP BATABYAL .,Computer Sci & Information Sys,sbatabyal@hyderabad.bits-pilani.ac.in
-H0564,VIVEK SHARMA,Biological Sciences,viveksharma@hyderabad.bits-pilani.ac.in
-H0565,JAMMA TRINATH,Biological Sciences,trinath@hyderabad.bits-pilani.ac.in
-H0576,GIREESHA THIPPERUDRAPPA MOHANNATH,Biological Sciences,gireesha@hyderabad.bits-pilani.ac.in
-H0579,SUBHASH NARAYAN KARBELKAR,Physics,snkarbelkar@hyderabad.bits-pilani.ac.in
-H0583,PIYUSH KHANDELIA,Biological Sciences,piyush.khandelia@hyderabad.bits-pilani.ac.in
-H0593,PRAGYA KOMAL,Biological Sciences,pragya@hyderabad.bits-pilani.ac.in
-H0598,PRASANT KUMAR SAMANTRAY,Physics,prasant.samantray@hyderabad.bits-pilani.ac.in
-H0607,LOV KUMAR .,Computer Sci & Information Sys,lovkumar@hyderabad.bits-pilani.ac.in
-H0609,SWASTIK BHATTACHARYA .,Physics,swastik@hyderabad.bits-pilani.ac.in
-H0624,SOURAV NANDI,Electrical & Electronics Engg,sourav@hyderabad.bits-pilani.ac.in
-H0631,SANTANU KOLEY,Mathematics,santanu@hyderabad.bits-pilani.ac.in
-H0636,ARANYA BHUTI BHATTACHARJEE,Physics,aranyabhuti@hyderabad.bits-pilani.ac.in
-H0638,SAYAN KANUNGO .,Electrical & Electronics Engg,sayan.kanungo@hyderabad.bits-pilani.ac.in
-H0657,RAVI SHANKER VIDYARTHY,Mechanical Engineering,ravi.vidyarthyfme@hyderabad.bits-pilani.ac.in
-H0672,HIMANSHU AGGARWAL,Chemistry,himanshu.aggarwal@hyderabad.bits-pilani.ac.in
-H0680,NIRMAN GANGULY,Mathematics,nirmanganguly@hyderabad.bits-pilani.ac.in
-H0712,K BHARGAV KUMAR,Mathematics,bhargav@hyderabad.bits-pilani.ac.in
-H0729,RAMAIAH D,Chemistry,rama@hyderabad.bits-pilani.ac.in
-H0736,SUBRAHMANYA BHIMA SANKAR .,Physics,sankar@hyderabad.bits-pilani.ac.in
-H0748,PRATYUSH CHAKRABORTY .,Electrical & Electronics Engg,pchakraborty@hyderabad.bits-pilani.ac.in
-H0749,NIJJWAL KARAK .,Mathematics,nijjwal@hyderabad.bits-pilani.ac.in
-H0750,APURBA DAS .,Computer Sci & Information Sys,apurba@hyderabad.bits-pilani.ac.in
-H0752,KIRTIMAAN SYAL .,Biological Sciences,ksyal@hyderabad.bits-pilani.ac.in
-H0760,ARNAB DUTTA .,Chemical Engineering,arnabdutta@hyderabad.bits-pilani.ac.in
-H0771,DEBIRUPA MITRA .,Chemical Engineering,debirupa@hyderabad.bits-pilani.ac.in
-H0773,SPANDAN BHATTACHARYA .,Humanities and Social Sciences,spandan@hyderabad.bits-pilani.ac.in
-H0776,RAGHU PISKA .,Civil Engineering,raghupiska@hyderabad.bits-pilani.ac.in
-H0778,CHANCHAL CHAKRABORTY,Chemistry,chanchal@hyderabad.bits-pilani.ac.in
-H0785,NILANJAN DEY .,Chemistry,nilanjan@hyderabad.bits-pilani.ac.in
-H0794,ARIJIT MUKHERJEE .,Chemistry,arijit.mukherjee@hyderabad.bits-pilani.ac.in
-H0826,PRAGATI SRIVASTAVA .,Computer Sci & Information Sys,pragati.shrivastava@hyderabad.bits-pilani.ac.in
+H0355,Durgesh Chandra Pathak,Economics and Finance,pathakdc@hyderabad.bits-pilani.ac.in
+H0356,Sarmishtha Banik,Physics,sarmistha.banik@hyderabad.bits-pilani.ac.in
+H0357,Debasri Bandyopadhyay,Biological Sciences,banerjee.debi@hyderabad.bits-pilani.ac.in
+H0360,Sudatta Banerjee,Economics and Finance,sudatta@hyderabad.bits-pilani.ac.in
+H0375,Phaneendra Kiran Chaganti,Mechanical Engineering,cpkiran@hyderabad.bits-pilani.ac.in
+H0377,Swati Biswas,Pharmacy,swati.biswas@hyderabad.bits-pilani.ac.in
+H0378,Jaganmohan Jonnalagadda,Mathematics,jjaganmohan@hyderabad.bits-pilani.ac.in
+H0380,Durba Roy,Chemistry,durbaroy@hyderabad.bits-pilani.ac.in
+H0384,Sumit Kumar Vishwakarma,Mathematics,sumitkumar@hyderabad.bits-pilani.ac.in
+H0388,Vikranth Kumar Surasani,Chemical Engineering,surasani@hyderabad.bits-pilani.ac.in
+H0397,Balaram Ghosh,Pharmacy,balaram@hyderabad.bits-pilani.ac.in
+H0406,Onkar P Kulkarni,Pharmacy,onkar@hyderabad.bits-pilani.ac.in
+H0410,Naraparaju Kishore Kumar,Mathematics,naraparaju@hyderabad.bits-pilani.ac.in
+H0411,Amrita Priyadarshini,Mechanical Engineering,amrita@hyderabad.bits-pilani.ac.in
+H0416,Arti Dhar,Pharmacy,artidhar@hyderabad.bits-pilani.ac.in
+H0417,Runa Kumari,Electrical & Electronics Engg,runakumari@hyderabad.bits-pilani.ac.in
+H0423,Santosh Kumar Mahapatra,Humanities and Social Sciences,santosh@hyderabad.bits-pilani.ac.in
+H0424,Venkateswaran Rajagopalan,Electrical & Electronics Engg,venkateswaran@hyderabad.bits-pilani.ac.in
+H0429,Archana Srivastava,Economics and Finance,archana@hyderabad.bits-pilani.ac.in
+H0431,Sabareesh Geetha Rajasekharan,Mechanical Engineering,sabareesh@hyderabad.bits-pilani.ac.in
+H0438,Niranjan Swain,Economics and Finance,niranjanswain@hyderabad.bits-pilani.ac.in
+H0469,Sumit Kumar Chatterjee,Electrical & Electronics Engg,sumit2702@hyderabad.bits-pilani.ac.in
+H0470,Satish Kumar Dubey,Mechanical Engineering,satishdubey@hyderabad.bits-pilani.ac.in
+H0471,Mohan S C,Civil Engineering,mohansc@hyderabad.bits-pilani.ac.in
+H0473,Sharan Gopal,Mathematics,sharan@hyderabad.bits-pilani.ac.in
+H0475,Soumya J,Electrical & Electronics Engg,soumyaj@hyderabad.bits-pilani.ac.in
+H0476,Anasua Guharay,Civil Engineering,guharay@hyderabad.bits-pilani.ac.in
+H0477,Arkamitra Kar,Civil Engineering,arkamitra.kar@hyderabad.bits-pilani.ac.in
+H0481,Sridhar R,Civil Engineering,sridhar.raju@hyderabad.bits-pilani.ac.in
+H0483,Arshad Javed,Mechanical Engineering,arshad@hyderabad.bits-pilani.ac.in
+H0486,Supradeepan K,Mechanical Engineering,supradeepan@hyderabad.bits-pilani.ac.in
+H0488,Sanket Goel,Electrical & Electronics Engg,sgoel@hyderabad.bits-pilani.ac.in
+H0490,Sujith R,Mechanical Engineering,sujith@hyderabad.bits-pilani.ac.in
+H0498,Ram Chandra Murthy Kalluri,Mechanical Engineering,rcmurthy@hyderabad.bits-pilani.ac.in
+H0499,N Anil,Mathematics,anil@hyderabad.bits-pilani.ac.in
+H0500,Biswanath Dash,Humanities and Social Sciences,biswanath@hyderabad.bits-pilani.ac.in
+H0502,Santanu Prasad Datta,Mechanical Engineering,spdatta@hyderabad.bits-pilani.ac.in
+H0503,Surya Shankar Dan,Electrical & Electronics Engg,ssdan@hyderabad.bits-pilani.ac.in
+H0516,Thota Nagaraju,Economics and Finance,nagaraju@hyderabad.bits-pilani.ac.in
+H0518,Ramakant ,Electrical & Electronics Engg,ramakant@hyderabad.bits-pilani.ac.in
+H0520,Sandeep Kumar,Electrical & Electronics Engg,skverma@hyderabad.bits-pilani.ac.in
+H0528,Rishi Kumar,Economics and Finance,rishikumar@hyderabad.bits-pilani.ac.in
+H0529,Barsha Mitra,Computer Sci & Information Sys,barsha.mitra@hyderabad.bits-pilani.ac.in
+H0535,Balasubramanian M,Electrical & Electronics Engg,balasubramanian@hyderabad.bits-pilani.ac.in
+H0537,Pavan Kumar Penumakala,Mechanical Engineering,pavankp@hyderabad.bits-pilani.ac.in
+H0538,Dushyant Kumar,Economics and Finance,dushyant@hyderabad.bits-pilani.ac.in
+H0547,Suvadip Batabyal,Computer Sci & Information Sys,sbatabyal@hyderabad.bits-pilani.ac.in
+H0549,Mini Thomas P,Economics and Finance,mini@hyderabad.bits-pilani.ac.in
+H0550,Subhrakanta Panda,Computer Sci & Information Sys,spanda@hyderabad.bits-pilani.ac.in
+H0557,Sunny Kumar Singh,Economics and Finance,sunny.singh@hyderabad.bits-pilani.ac.in
+H0558,Bheemeshwar Reddy A,Economics and Finance,bheem@hyderabad.bits-pilani.ac.in
+H0561,Suchismita Satpathy,Humanities and Social Sciences,suchi@hyderabad.bits-pilani.ac.in
+H0564,Vivek Sharma,Biological Sciences,viveksharma@hyderabad.bits-pilani.ac.in
+H0565,Jamma Trinath,Biological Sciences,trinath@hyderabad.bits-pilani.ac.in
+H0566,Lavanya Suresh,Humanities and Social Sciences,lavanya@hyderabad.bits-pilani.ac.in
+H0568,Pranesh Bhargava,Humanities and Social Sciences,pranesh@hyderabad.bits-pilani.ac.in
+H0573,Mithun Mondal,Electrical & Electronics Engg,mithun@hyderabad.bits-pilani.ac.in
+H0576,Gireesha Thipperudrappa Mohannath,Biological Sciences,gireesha@hyderabad.bits-pilani.ac.in
+H0579,Subhash Narayan Karbelkar,Physics,snkarbelkar@hyderabad.bits-pilani.ac.in
+H0580,Bahurudeen A,Civil Engineering,bahur@hyderabad.bits-pilani.ac.in
+H0581,Ruchi Jain Dey,Biological Sciences,ruchij80@hyderabad.bits-pilani.ac.in
+H0583,Piyush Khandelia,Biological Sciences,piyush.khandelia@hyderabad.bits-pilani.ac.in
+H0593,Pragya Komal,Biological Sciences,pragya@hyderabad.bits-pilani.ac.in
+H0595,Sudha Radhika,Electrical & Electronics Engg,sradhika@hyderabad.bits-pilani.ac.in
+H0598,Prasant Kumar Samantray,Physics,prasant.samantray@hyderabad.bits-pilani.ac.in
+H0602,Tanmay Chatterjee,Chemistry,tanmay@hyderabad.bits-pilani.ac.in
+H0604,Jhuma Sen Gupta,Mathematics,jhuma@hyderabad.bits-pilani.ac.in
+H0605,Harish Vijay Dixit,Electrical & Electronics Engg,hvdixit@hyderabad.bits-pilani.ac.in
+H0606,Amarthaluri Satyapaul Singh,Chemical Engineering,satyapaul@hyderabad.bits-pilani.ac.in
+H0607,Lov Kumar,Computer Sci & Information Sys,lovkumar@hyderabad.bits-pilani.ac.in
+H0608,Nirmal Jayabalan,Pharmacy,nirmalj@hyderabad.bits-pilani.ac.in
+H0609,Swastik Bhattacharya,Physics,swastik@hyderabad.bits-pilani.ac.in
+H0613,Bandhan Bandhu Majumdar,Civil Engineering,majumdar@hyderabad.bits-pilani.ac.in
+H0618,Akash Chaurasiya,Pharmacy,akashc@hyderabad.bits-pilani.ac.in
+H0620,Jayesh A K,Humanities and Social Sciences,jayesh@hyderabad.bits-pilani.ac.in
+H0622,J Jabez Christopher,Computer Sci & Information Sys,jabezc@hyderabad.bits-pilani.ac.in
+H0623,B Nandini,Chemical Engineering,nandini@hyderabad.bits-pilani.ac.in
+H0624,Sourav Nandi,Electrical & Electronics Engg,sourav@hyderabad.bits-pilani.ac.in
+H0631,Santanu Koley,Mathematics,santanu@hyderabad.bits-pilani.ac.in
+H0632,Rajesh Kumar Tripathy,Electrical & Electronics Engg,tripathyrk@hyderabad.bits-pilani.ac.in
+H0633,R N Ponnalagu,Electrical & Electronics Engg,ponnalagu@hyderabad.bits-pilani.ac.in
+H0636,Aranya Bhuti Bhattacharjee,Physics,aranyabhuti@hyderabad.bits-pilani.ac.in
+H0638,Sayan Kanungo,Electrical & Electronics Engg,sayan.kanungo@hyderabad.bits-pilani.ac.in
+H0640,Narasimha Bolloju,Computer Sci & Information Sys,narsi.bolloju@hyderabad.bits-pilani.ac.in
+H0648,Karumbaiah C N,Electrical & Electronics Engg,karumcn@hyderabad.bits-pilani.ac.in
+H0649,Anhiti Patnaik,Humanities and Social Sciences,anhitipatnaik@hyderabad.bits-pilani.ac.in
+H0650,Paresh Saxena,Computer Sci & Information Sys,psaxena@hyderabad.bits-pilani.ac.in
+H0657,Ravi Shanker Vidyarthy,Mechanical Engineering,ravi.vidyarthyfme@hyderabad.bits-pilani.ac.in
+H0658,Pardha Saradhi Gurugubelli Venkata,Mechanical Engineering,pardhasg@hyderabad.bits-pilani.ac.in
+H0659,Prasanta Kumar Sahu,Civil Engineering,prasanta.sahu@hyderabad.bits-pilani.ac.in
+H0660,Raghunathan Rajasekaran,Economics and Finance,raghu@hyderabad.bits-pilani.ac.in
+H0661,Parikshit Parshuram Sahatiya,Electrical & Electronics Engg,parikshit@hyderabad.bits-pilani.ac.in
+H0662,Shilpaa Anand,Humanities and Social Sciences,shilpaa.anand@hyderabad.bits-pilani.ac.in
+H0666,Subit Kumar Saha,Chemistry,sksaha@hyderabad.bits-pilani.ac.in
+H0669,Rajib Ranjan Maiti,Computer Sci & Information Sys,rajibrm@hyderabad.bits-pilani.ac.in
+H0670,Prashant K Wali,Electrical & Electronics Engg,wali@hyderabad.bits-pilani.ac.in
+H0672,Himanshu Aggarwal,Chemistry,himanshu.aggarwal@hyderabad.bits-pilani.ac.in
+H0674,Debopam Chakraborty,Mathematics,debopam@hyderabad.bits-pilani.ac.in
+H0676,Piyush Chandra Verma,Mechanical Engineering,piyushchandraverma@hyderabad.bits-pilani.ac.in
+H0678,Gujji Murali Mohan Reddy,Mathematics,gmmreddy@hyderabad.bits-pilani.ac.in
+H0680,Nirman Ganguly,Mathematics,nirmanganguly@hyderabad.bits-pilani.ac.in
+H0682,Nivedita Sinha,Economics and Finance,nivedita.sinha@hyderabad.bits-pilani.ac.in
+H0687,Shreya Biswas,Economics and Finance,shreya@hyderabad.bits-pilani.ac.in
+H0688,Pratyusha Chattopadhyay,Mathematics,pratyusha@hyderabad.bits-pilani.ac.in
+H0689,Manjanna B,Computer Sci & Information Sys,manjanna@hyderabad.bits-pilani.ac.in
+H0698,Brajesh Kumar Panigrahi,Mechanical Engineering,brajesh@hyderabad.bits-pilani.ac.in
+H0699,Manik Gupta,Computer Sci & Information Sys,manik@hyderabad.bits-pilani.ac.in
+H0700,Dipanjan Chakraborty,Computer Sci & Information Sys,dipanjan@hyderabad.bits-pilani.ac.in
+H0702,Ankur Bhattacharjee,Electrical & Electronics Engg,a.bhattacharjee@hyderabad.bits-pilani.ac.in
+H0703,Amit Ranjan Azad,Electrical & Electronics Engg,arazad@hyderabad.bits-pilani.ac.in
+H0704,Pankaj Kumar,Chemical Engineering,pankajkumar@hyderabad.bits-pilani.ac.in
+H0709,Sabyasachi Dey,Mathematics,sabya@hyderabad.bits-pilani.ac.in
+H0710,Vuppuluri Amol,Mechanical Engineering,amol@hyderabad.bits-pilani.ac.in
+H0711,Kundan Kumar Singh,Mechanical Engineering,ksingh@hyderabad.bits-pilani.ac.in
+H0712,K Bhargav Kumar,Mathematics,bhargav@hyderabad.bits-pilani.ac.in
+H0713,Jaideep Chatterjee,Chemical Engineering,jaideepc@hyderabad.bits-pilani.ac.in
+H0718,Srimath Tirumala Pallerlamudi Srinivas,Electrical & Electronics Engg,stps@hyderabad.bits-pilani.ac.in
+H0719,Venkatakrishnan Ramaswamy,Computer Sci & Information Sys,venkat@hyderabad.bits-pilani.ac.in
+H0726,D V N Siva Kumar,Computer Sci & Information Sys,sivakumar@hyderabad.bits-pilani.ac.in
+H0729,D Ramaiah,Chemistry,rama@hyderabad.bits-pilani.ac.in
+H0731,Amit Panda,Electrical & Electronics Engg,amit@hyderabad.bits-pilani.ac.in
+H0736,Davuluri Subrahmanya Bhima Sankar,Physics,sankar@hyderabad.bits-pilani.ac.in
+H0748,Pratyush Chakraborty,Electrical & Electronics Engg,pchakraborty@hyderabad.bits-pilani.ac.in
+H0749,Nijjwal Karak,Mathematics,nijjwal@hyderabad.bits-pilani.ac.in
+H0750,Apurba Das,Computer Sci & Information Sys,apurba@hyderabad.bits-pilani.ac.in
+H0751,Shuvadeep Maity,Biological Sciences,shuvadeep@hyderabad.bits-pilani.ac.in
+H0752,Kirtimaan Syal,Biological Sciences,ksyal@hyderabad.bits-pilani.ac.in
+H0753,Gopal Krishna Kamath M,Electrical & Electronics Engg,gopal.kamath@hyderabad.bits-pilani.ac.in
+H0754,Prabakaran Saravanan,Mechanical Engineering,psaravanan@hyderabad.bits-pilani.ac.in
+H0755,Rohit Gupta,Mathematics,rohitgupta@hyderabad.bits-pilani.ac.in
+H0759,Nikumani Choudhury,Computer Sci & Information Sys,nikumani@hyderabad.bits-pilani.ac.in
+H0760,Arnab Dutta,Chemical Engineering,arnabdutta@hyderabad.bits-pilani.ac.in
+H0761,Shivang Shekhar,Civil Engineering,shivangshekhar@hyderabad.bits-pilani.ac.in
+H0763,Mrinal Ketan Jagirdar,Mechanical Engineering,mkjagirdar@hyderabad.bits-pilani.ac.in
+H0764,Subhradeep Pal,Electrical & Electronics Engg,subhradeep@hyderabad.bits-pilani.ac.in
+H0766,Farida Parvez Barbhuiya,Mathematics,faridaparvezb@hyderabad.bits-pilani.ac.in
+H0767,Sajith P,Mathematics,sajith@hyderabad.bits-pilani.ac.in
+H0768,Nabin Kumar Meher,Mathematics,nabinmeher@hyderabad.bits-pilani.ac.in
+H0769,Afkham Mir,Chemical Engineering,mirafkham@hyderabad.bits-pilani.ac.in
+H0770,Raghunath Reddy Madireddy,Computer Sci & Information Sys,raghunath@hyderabad.bits-pilani.ac.in
+H0771,Debirupa Mitra,Chemical Engineering,debirupa@hyderabad.bits-pilani.ac.in
+H0772,Nishith Gupta,Biological Sciences,gupta.nishith@hyderabad.bits-pilani.ac.in
+H0773,Spandan Bhattacharya,Humanities and Social Sciences,spandan@hyderabad.bits-pilani.ac.in
+H0774,Iyman Abrar,Chemical Engineering,iyman@hyderabad.bits-pilani.ac.in
+H0775,Abhishek Sarkar,Mechanical Engineering,abhisheks@hyderabad.bits-pilani.ac.in
+H0776,P Raghu,Civil Engineering,raghupiska@hyderabad.bits-pilani.ac.in
+H0778,Chanchal Chakraborty,Chemistry,chanchal@hyderabad.bits-pilani.ac.in
+H0783,Sayan Ghosh,Mathematics,sayan@hyderabad.bits-pilani.ac.in
+H0785,Nilanjan Dey,Chemistry,nilanjan@hyderabad.bits-pilani.ac.in
+H0787,K Srinivasa Prasad,Pharmacy,ksprasad@hyderabad.bits-pilani.ac.in
+H0790,Ramendra Kishor Pal,Chemical Engineering,ramendra.pal@hyderabad.bits-pilani.ac.in
+H0794,Arijit Mukherjee,Chemistry,arijit.mukherjee@hyderabad.bits-pilani.ac.in
+H0808,S Gurunarayanan,Electrical & Electronics Engg,sguru@hyderabad.bits-pilani.ac.in
+H0812,Vijay Kumar Tadakamalla,Humanities and Social Sciences,tvk@hyderabad.bits-pilani.ac.in
+H0817,Vivekananda Mukherjee,Economics and Finance,v.mukherjee@hyderabad.bits-pilani.ac.in
+H0820,Abhijeet Rajendra Joshi,Pharmacy,abhijeet.j@hyderabad.bits-pilani.ac.in
+H0822,Joyjit Mukherjee,Electrical & Electronics Engg,j.mukherjee@hyderabad.bits-pilani.ac.in
+H0823,Sameera Muhamed Salam,Computer Sci & Information Sys,sameera.ms@hyderabad.bits-pilani.ac.in
+H0824,Mudit Dixit,Chemistry,m.dixit@hyderabad.bits-pilani.ac.in
+H0825,Mahipal Reddy Benjaram,Chemistry,bmreddy@hyderabad.bits-pilani.ac.in
+H0826,Pragati Shrivastava,Computer Sci & Information Sys,pragati.shrivastava@hyderabad.bits-pilani.ac.in
+H0827,Aritra Mukherjee,Computer Sci & Information Sys,a.mukherjee@hyderabad.bits-pilani.ac.in
+H0828,Sayan Das,Mechanical Engineering,sayan.das@hyderabad.bits-pilani.ac.in
+H0831,Abhijit Das,Computer Sci & Information Sys,abhijit.das@hyderabad.bits-pilani.ac.in
+H0836,Satya Narayan Guin,Chemistry,satyanarayan.g@hyderabad.bits-pilani.ac.in
+H0833,Supratim Ghosh,Biological Sciences,supratim.ghosh@hyderabad.bits-pilani.ac.in
+H0838,Jayabrata Dhar,Mechanical Engineering,JAYABRATA.DHAR@hyderabad.bits-pilani.ac.in>
